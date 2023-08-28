@@ -1,0 +1,18 @@
+If you running Sngine v 2.0.1 you can upgrade to 2.0.2:
+
+**Backup your database and your website files just in case something wrong happened**
+
+1- Shutdown your system from the admin panel
+2- Upload all files located in the "Script" folder and replace all files
+
+3- Copy and replace "bootstrap.php" file from "Update 2.0.1 to 2.0.2" folder to to your script folder
+4- Copy "gettext.inc" file from "Update 2.0.1 to 2.0.2" folder to 'includes/libs/gettext' folder
+
+5- Copy and replace "update.php" file from "Update 2.0.1 to 2.0.2" folder to your Script folder
+6- Run the "update.php" file (http://yourdomain.com/path_to_script/update.php)
+7- Delete "update.php" from your script folder after updating 
+
+6- Delete all files located in the "content/themes/default/templates_compiled"
+7- You have to change chmod of "content/uplaods" folder and "content/themes/default/templates_compiled" folder to 777.
+
+Have fun and Happy Sngine :)

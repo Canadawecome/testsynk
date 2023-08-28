@@ -1,0 +1,41 @@
+#== v2.0.2 == ( 05-12-2015 )
+- Social Logins (Facebook, Twitter, Google) 
+- Linked Accounts (Facebook, Twitter, Google)
+- Admin Panel Login while system shutdown with no problem
+- Reduce Image size and handle uploader security 
+- UI Enhancements (From your feedback)
+- Fixed bugs
+
+#== v2.0.1 == ( 16-11-2015 )
+- All UI edits for mobile/desktop Layout.
+- Add 7 new languages. (10 Languages now available)
+- Add the widgets (So admin can add widget like Like Facebook Page ...etc) 
+- Start the Plugins engine.
+- Add 1st Plugin (Games)
+- Add the User the Ability to delete their own Pages/Groups.
+- Add the mutual friends counter on user profile.
+- Add shared post title
+- Fixed the suggested pages/groups section (get only new pages/groups)
+- New Static pages appear in the footer
+- Add who share a post.
+- Admin can delete post directly from post's menu
+- Fixed bugs
+
+#== v2.0.1 == ( 16-11-2015 )
+- All UI edits for mobile/desktop Layout.
+- Add 7 new languages. (10 Languages now available)
+- Add the widgets (So admin can add widget like Like Facebook Page ...etc) 
+- Start the Plugins engine.
+- Add 1st Plugin (Games)
+- Add the User the Ability to delete their own Pages/Groups.
+- Add the mutual friends counter on user profile.
+- Add shared post title
+- Fixed the suggested pages/groups section (get only new pages/groups)
+- New Static pages appear in the footer
+- Add who share a post.
+- Admin can delete post directly from post's menu
+- Fixed bugs
+
+
+#== v2.0.0 == ( 06-11-2015 )
+- Initial version.

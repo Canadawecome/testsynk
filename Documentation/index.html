@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+<head>
+
+	<!-- Basic Page Needs -->
+	<meta charset="utf-8">
+	<title>Sngine v2+ - Documentation</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS Style -->
+	<link rel="stylesheet" href="css/style.css"> 
+
+	<!-- Syntax Highlighter -->
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
+
+
+	<script src="js/jquery-1.11.0.min.js"></script> <!-- jQuery library -->
+	<script src="js/jquery.easing.1.3.min.js"></script> <!-- jQuery Easing --> 
+
+	<script src="js/jquery.scrollTo.js"></script> <!-- ScrollTo plugin  -->
+	<script src="js/jquery.nav.js"></script> <!-- Navigation plugin  -->
+	<script src="js/jquery.ui.totop.js"></script> <!-- UItoTop plugin  -->
+	<script src="js/custom.js"></script> <!-- Custom Js file for javascript in html -->
+	<script src="js/selectnav.js"></script> <!-- Responsive Navigation Menu by SelectNav -->
+
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<![endif]-->
+
+<link rel="shortcut icon" href="images/favicon.png">
+
+</head>
+<body>
+
+	<div class="container" id="Welcome">
+
+		<header>
+
+			<div class="five columns">
+				<div class="logo">Sngine v2+</div>
+			</div>
+
+			<div class="eleven columns">
+				<ul class="links">
+					<li><a href="http://support.zamblek.com/" class="support" target="_blank">Support</a></li>
+					<li><a href="http://demo.sngine.com" class="demo" target="_blank">View Demo</a></li>
+					<li><a href="http://codecanyon.net/item/sngine-v2-the-ultimate-social-network-platform/13526001?ref=Zamblek" class="purchase" target="_blank">Purchase</a></li>
+				</ul>
+			</div>
+
+		</header>
+
+
+		<div class="three columns">
+			<div class="navigation">
+
+				<ul id="nav">
+					<li class="current"><a href="#Welcome">Welcome</a></li>
+					<li><a href="#Installing">Installing</a></li>
+					<li><a href="#Facebook">Integrate Facebook</a></li>
+					<li><a href="#Twitter">Integrate Twitter</a></li>
+					<li><a href="#Google">Integrate Google</a></li>
+				</ul>
+
+			</div>
+		</div><!-- End Navigation -->
+
+		<div class="thirteen columns">
+			<div class="content">
+
+				<div class="section">
+
+					<h1>Welcome To Sngine v2+ Documentation</h1>
+
+					<div class="data">
+
+						<p> Created: 6/11/2015  &nbsp;&nbsp;-&nbsp;&nbsp;  By: <a href="http://zamblek.com/" target="_blank">Zamblek</a> 
+
+							<br />
+
+							Thank you for purchasing this script. If you have any questions that are beyond the scope of this help file, please feel 
+							free to create a support thread on our <a href="http://support.zamblek.com/" target="_blank">support forum</a>.. Thanks so much!
+
+						</p>
+
+
+
+					</div>
+
+				</div>
+
+				<div class="section" id="Installing">
+
+					<h1>Installing</h1>
+
+					<div class="data">
+
+						<ul class="list">
+							<li>
+								<span class="color">&#8594;</span> This script requires <span class="color">Apache Server</span>, <span class="color">PHP 5.3+</span> and <span class="color">MySQL 5.0+</span> to run.
+							</li>
+							<li>
+								<span class="color">&#8594;</span> Before install <span class="color">Sngine</span> please make sure that <span class="color">mod_rewrite, cURL and mail()</span> are enabled on your server. you can ask your hosting company to make sure to enable it for you.
+							</li>
+
+							<li>
+								<span class="color">&#8594;</span> Now make sure you create a empty MySQL database along with an user for it.
+							</li>
+
+							<li>
+								<span class="color">&#8594;</span> After unzip <span class="color">Sngine</span> Files, you will found <span class="color">Script</span> Folder 
+							</li>
+							<li>
+								<span class="color">&#8594;</span> Start your FTP client (I persoanlly use Filezila which is free) and login. Login to your server. You will need your server 
+								name (often times this will be your domain name), username, and password that you setup with the hosting company.
+							</li>
+							<li>
+								<span class="color">&#8594;</span> Locate the domain folder you wish to upload your <span class="color">Sngine</span> files to on your server. You are going to upload all files located in <span class="color">Script Folder</span> to your FTP client.
+							</li>
+							<li>
+								<span class="color">&#8594;</span> Once the files are done uploading, you have to change chmod of <span class="color">content/uplaods</span> folder and <span class="color">content/themes/default/templates_compiled</span> folder to 777.
+							</li>
+
+							<li>
+								<span class="color">&#8594;</span> No coding or design skills needed. Launch in 1 minute, Just go to your new <span class="color">Sngine</span> the website and installer will run automatically <span class="color">http://yourdomain.com/path_to_script</span>.
+							</li>
+
+							<li>
+
+							</li>
+							<span class="color">&#8594;</span> Check this video to see how easily it is:<br><br>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/eTi1caZEwfg" frameborder="0" allowfullscreen></iframe>
+						</li>
+					</ul>
+
+				</div>
+
+				<div class="section" id="Facebook">
+
+					<h1>Integrate Facebook</h1>
+
+					<div class="data">
+
+						<p>After installing <span class="color">Sngine</span> now you can in easy step integrate Facebook with it to let your users login with thier Facebook accounts.
+						</p>
+
+						<ul class="list">
+							<li>
+								<span class="color">&#8594;</span> First goto: <a target="_blank" href="https://developers.facebook.com">https://developers.facebook.com</a> and Sign in with your Facebook account.
+							</li>
+
+							<li>
+								<span class="color">&#8594;</span> Now click <span class="color">Apps</span> and click <span class="color">Create a new App</span> and fill the form
+								<br /><br />
+								<img src="images/img/f1.png" alt="" />
+								<br /><br />
+								<img src="images/img/f2.png" alt="" />
+
+							</li>
+
+							<li>
+								<span class="color">&#8594;</span> Now back to your app page to copy both <span class="color">App ID</span> and <span class="color">App Secret</span>.
+								<br /><br />
+								<img src="images/img/f3.png" alt="" />
+							</li>
+
+							<li>
+								<span class="color">&#8594;</span> Now goto to your <span class="color">Sngine Admin panel</span> and open your settings page and paste both key as shown.
+								<br /><br />
+								<img src="images/img/f4.png" alt="" />
+							</li>
+
+							<li>
+								<span class="color">&#8594;</span> That's all, Enjoy!
+							</li>
+
+						</ul>
+
+
+					</div><!-- End data -->
+
+				</div>
+
+				<div class="section" id="Twitter">
+
+					<h1>Integrate Twitter</h1>
+
+					<div class="data">
+
+						<p>After installing <span class="color">Sngine</span> now you can in easy step integrate Twitter with it to let your users login with thier Twitter accounts.
+						</p>
+
+						<ul class="list">
+							<li>
+								<span class="color">&#8594;</span> First goto: <a target="_blank" href="https://apps.twitter.com/">https://apps.twitter.com/</a> and Sign in with your Twitter account.
+							</li>
+
+							<li>
+								<span class="color">&#8594;</span> Now goto <span class="color">My Applications</span> and click <span class="color">Create a new application</span> and fill the form
+								<br /><br />
+								<img src="images/img/t1.png" alt="" />
+
+								<br /><br />
+								<img src="images/img/t2.png" alt="" />
+
+								<br /><br />
+								<img src="images/img/t3.png" alt="" />
+							</li>
+
+							<li>
+								<span class="color">&#8594;</span> Now back to your app page to copy both <span class="color">Consumer key</span> and <span class="color">Consumer secret</span>.
+								<br /><br />
+								<img src="images/img/t8.png" alt="" />
+							</li>
+
+							<li>
+								<span class="color">&#8594;</span> Now goto to your <span class="color">Sngine Admin panel</span> and open your settings page and paste both key as shown.
+								<br /><br />
+								<img src="images/img/t9.png" alt="" />
+							</li>
+
+							<li>
+								<span class="color">&#8594;</span> That's all, Enjoy!
+							</li>
+
+
+						</ul>
+
+					</div>
+
+				</div>
+
+
+				<div class="section" id="Google">
+
+					<h1>Integrate Google</h1>
+
+					<div class="data">
+
+						<p>After installing <span class="color">Sngine</span> now you can in easy step integrate Google with it to let your users login with thier Google accounts.
+						</p>
+
+						<ul class="list">
+							<li>
+								<span class="color">&#8594;</span> Go to <a href="https://code.google.com/apis/console/">https://code.google.com/apis/console/</a> and create a new project.
+							</li>
+
+							<li>
+								<span class="color">&#8594;</span> Go to API Access under API Project. After that click on Create an OAuth 2.0 client ID to create a new application.
+							</li>
+
+							<li>
+								<span class="color">&#8594;</span> A pop-up named "Create Client ID" will appear, fill out any required fields such as the application name and description.
+							</li>
+
+							<li>
+								<span class="color">&#8594;</span> Click on Next.
+							</li>
+
+							<li>
+								<span class="color">&#8594;</span> On the popup set Application type to Web application and switch to advanced settings by clicking on (more options).
+							</li>
+
+							<li>
+								<span class="color">&#8594;</span> Provide this URL as the Callback URL for your application: <span class="color">http://www.domain.com/path_to_sngine/oauth.php?hauth.done=Google</span>
+							</li>
+
+							<li>
+								<span class="color">&#8594;</span> Once you have registered, copy and past the created application credentials (Client ID and Secret) into <span class="color">Sngine Admin Panel</span>
+							</li>
+
+							<li>
+								<span class="color">&#8594;</span> That's all, Enjoy!
+							</li>
+
+
+						</ul>
+
+					</div>
+
+				</div>
+
+
+
+			</div>
+
+
+
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
+
+	<footer>
+
+		<div class="three columns padding"> </div>
+
+		<div class="thirteen columns">
+			<div class="copyright">
+				Copyright © 2015 <a href="http://zamblek.com/" target="_blank" title="Zamblek">Zamblek</a>
+			</div>
+
+		</div>
+
+	</footer><!-- End footer -->
+
+</div><!-- End container -->
+
+<script type="text/javascript" src="syntax-highlighter/scripts/shCore.js"></script> 
+<script type="text/javascript" src="syntax-highlighter/scripts/shBrushXml.js"></script> 
+<script type="text/javascript" src="syntax-highlighter/scripts/shBrushCss.js"></script> 
+<script type="text/javascript" src="syntax-highlighter/scripts/shBrushJScript.js"></script> 
+<script type="text/javascript" src="syntax-highlighter/scripts/shBrushPhp.js"></script> 
+<script type="text/javascript">
+	SyntaxHighlighter.all()
+</script>
+
+</body>
+</html>
